@@ -1,0 +1,17 @@
+{
+    "name": "reputation",
+    "version": "0.0.1",
+    "dependencies": {
+        "request": "*",
+        "mysql": "*",
+        "fs": "*",
+        "cheerio": "*",
+        "express":"*",
+        "ejs":"*",
+        "body-parser":"*",
+        "ps-tree": "*",
+        "bayes":"*",
+        "twitter":"*",
+        "sentiment":"*"
+    }
+}

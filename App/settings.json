@@ -1,0 +1,8 @@
+{
+    "dbHost" : "localhost",
+    "dbUser" : "root",
+    "dbPwd": "",
+    "dbName": "reputation",
+    "indexPage" : "../App/Views/index.ejs",
+    "port": 3000
+}

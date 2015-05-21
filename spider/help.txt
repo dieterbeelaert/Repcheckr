@@ -1,0 +1,27 @@
+--------------------------
+Usage of repcheckr search:
+--------------------------
+
+
+node search.js [command] [id]
+
+
+------------------------------------------------------------------------------------------------------
+the id is the product id, you can get the product id's from the database or the webapp
+list of possible commands:
+    - duckduckgo
+        Will gather data from duckduckgo (note: still need to run extractor.js to scrape the pages)
+    - google
+        Will gather data from google (note: still need to run extractor.js to scrape the pages)
+    - autocom
+        Will gather data from google autocomplete + analysis
+    - twitter
+        Will gather data from twitter + analysis
+    - refresh
+        Will refresh all the gathered and scraped pages
+    - help
+        Will display this help text
+
+-------------------------------------------------------------------------------------------------------
+
+

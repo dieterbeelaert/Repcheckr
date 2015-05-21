@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="repcheckr">
+<head>
+    <title>Repcheckr</title>
+    <%include includesTop.ejs%>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top"
+         role="navigation">
+        <div class="navbar-brand">Repcheckr</div>
+
+        <div class="btn-group" id="btnProduct">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                Select product/brand <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" id="drpProduct">
+
+            </ul>
+        </div>
+
+        <button type="button" class="btn btn-default" id="btnRefresh" aria-label="Left Align">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+        </button>
+    </nav>
+
+    <div class="body">
+        <h3 id="selectedProduct"></h3>
+        <h4 id="scoreHolder"></h4>
+        <div class="row container-fluid">
+            <div class="col-md-3" id="grpWeb" style="width: 450px; height: 250px;">
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" id="grpTwitter" style="width: 450px; height: 250px;">
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" id="grpAutocom" style="width: 450px; height: 250px;">
+
+            </div>
+        </div>
+    </div>
+<%include includesBottom.ejs%>
+</body>
+</html>

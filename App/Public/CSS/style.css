@@ -1,0 +1,34 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+}
+
+h3{
+    margin:2em;
+}
+
+h4{
+    margin:2.6em;
+    margin-top: -1em;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+    border: 0;
+}
+
+#btnRefresh,
+#btnProduct{margin:0.5em}
+#btnRefresh{float:right;}
+
+
+
+
+

@@ -1,0 +1,24 @@
+{
+    "pagelimit" : 500,
+    "keywords" : [
+        "apple"
+    ],
+    "sitesToIgnore" : ["apple.com", "google"],
+    "duckduck": {
+        "baseUrl": ["https://duckduckgo.com/d.js?q=", "&t=D&l=us-en&p=1&s="],
+        "selectedLanguages": ["en"]
+    },
+    "google": {
+        "baseUrl" : ["https://www.google.com/search?q=","&start=","&lr=lang_en"]
+    },
+    "spiderDepth": 4,
+    "dbHost" : "localhost",
+    "dbUser" : "root",
+    "dbPwd": "",
+    "dbName": "reputation",
+    "twitterLangs": ["en"],
+    "twitterConsumerKey":"secret",
+    "twitterConsumerSecret":"secret",
+    "twitterAccessToken":"secret",
+    "twitterAccessTockensecret":"secret"
+}
